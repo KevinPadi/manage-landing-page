@@ -17,6 +17,10 @@ export default {
       fontFamily: {
         sans: '"Be Vietnam Pro"',
         serif: 'sans-serif'
+      },
+      backgroundImage: {
+        'bg-pattern': "url('./src/assets/images/bg-tablet-pattern.svg')",
+        'bg-illustration': "url('/src/assets/images/illustration-intro.svg')"
       }
     }
   },
