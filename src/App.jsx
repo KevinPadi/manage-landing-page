@@ -7,8 +7,6 @@ import TestimonialSection from './components/TestimonialSection'
 import CtaSection from './components/CtaSection'
 import Footer from './components/Footer'
 
-// TODO: añador mt entre testimonialSection y featuresSection / cambiar el color de fondo de la modal
-
 function App () {
   return (
     <div className='overflow-hidden w-full bg-VaryLightGray bg-bg-pattern bg-no-repeat bg-[-50px_-160px] md:bg-[400px_-160px] lg:bg-[600px_-160px] xl:bg-[800px_-160px]'>
