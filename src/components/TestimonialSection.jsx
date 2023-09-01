@@ -98,7 +98,7 @@ function TestimonialSection () {
         </div>
       </div>
       <div className='flex justify-center pt-10'>
-        <Button />
+        <Button textColor='text-VaryLightGray' bgColor='bg-BrightRed' />
       </div>
     </section>
   )

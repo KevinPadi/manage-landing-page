@@ -16,7 +16,7 @@ function Nav () {
         </ul>
       </nav>
       <div className='hidden md:inline-block'>
-        <Button />
+        <Button textColor='text-VaryLightGray' bgColor='bg-BrightRed' />
       </div>
       <HamburgerMenu />
     </header>

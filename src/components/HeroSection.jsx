@@ -9,7 +9,7 @@ function HeroSection () {
         <p className='text-sm w-[280px] lg:w-[300px] text-DarkGrayishBlue leading-[1.6]'>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goats in view.
         </p>
         <div>
-          <Button />
+          <Button textColor='text-VaryLightGray' bgColor='bg-BrightRed' />
         </div>
       </div>
       <div>
