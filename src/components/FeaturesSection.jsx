@@ -2,7 +2,7 @@ import React from 'react'
 
 function FeaturesSection () {
   return (
-    <div className='mt-20 w-full h-[800px] md:h-fit flex flex-col gap-10 mx-auto max-w-sm md:max-w-full md:flex-row md:justify-between'>
+    <div className='mt-20 w-full h-[800px] md:h-fit flex flex-col gap-10 mx-auto max-w-sm md:max-w-full md:flex-row md:justify-between px-10 md:px-15 lg:px-20 xl:px-40'>
       <div className='text-center space-y-4 md:space-y-6 md:text-left md:w-1/2'>
         <h2 className='text-4xl font-bold text-DarkBlue w-80 mx-auto md:mx-0 md:w-full'>What's different about Manage?</h2>
         <p className='text-sm text-DarkGrayishBlue leading-[1.8] w-[300px] mx-auto md:mx-0'>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>

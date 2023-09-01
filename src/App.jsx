@@ -7,7 +7,7 @@ import TestimonialSection from './components/TestimonialSection'
 
 function App () {
   return (
-    <div className='overflow-hidden w-full px-10 md:px-15 lg:px-20 xl:px-40 bg-VaryLightGray bg-bg-pattern bg-no-repeat bg-[-50px_-160px] md:bg-[400px_-160px] lg:bg-[600px_-160px] xl:bg-[800px_-160px]'>
+    <div className='overflow-hidden w-full bg-VaryLightGray bg-bg-pattern bg-no-repeat bg-[-50px_-160px] md:bg-[400px_-160px] lg:bg-[600px_-160px] xl:bg-[800px_-160px]'>
       <Nav />
       <HeroSection />
       <FeaturesSection />
