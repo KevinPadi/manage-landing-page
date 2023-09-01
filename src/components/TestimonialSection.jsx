@@ -77,7 +77,7 @@ function TestimonialSection () {
     )
   }
   return (
-    <section className='w-full space-y-8 mt-10 md:mt-20 text-center'>
+    <section className='w-full space-y-8 mt-20 text-center'>
       <h2 className='text-3xl text-center font-bold text-DarkBlue w-80 mx-auto md:mx-0 md:w-full'>What they've said</h2>
       <div className='flex justify-center items-center'>
         <div className='w-full max-w-md lg:hidden'>
