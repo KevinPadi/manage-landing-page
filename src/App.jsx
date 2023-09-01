@@ -1,6 +1,9 @@
 import FeaturesSection from './components/FeaturesSection'
 import HeroSection from './components/HeroSection'
 import Nav from './components/Nav'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import TestimonialSection from './components/TestimonialSection'
 
 function App () {
   return (
@@ -8,6 +11,7 @@ function App () {
       <Nav />
       <HeroSection />
       <FeaturesSection />
+      <TestimonialSection />
     </div>
   )
 }

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Estilos para los dots activos */
+.slick-dots .slick-active div {
+  background-color: red;
+  /* Cambia el color de fondo para los dots activos */
+  border-color: red;
+  /* Cambia el color del borde para los dots activos */
+}
