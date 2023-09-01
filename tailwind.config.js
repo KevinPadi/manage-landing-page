@@ -20,7 +20,9 @@ export default {
       },
       backgroundImage: {
         'bg-pattern': "url('./src/assets/images/bg-tablet-pattern.svg')",
-        'bg-illustration': "url('/src/assets/images/illustration-intro.svg')"
+        'bg-illustration': "url('./src/assets/images/illustration-intro.svg')",
+        'bg-simplify-mobile': "url('./src/assets/images/bg-simplify-section-mobile.svg')",
+        'bg-simplify-desktop': "url('./src/assets/images/bg-simplify-section-desktop.svg')"
       }
     }
   },
