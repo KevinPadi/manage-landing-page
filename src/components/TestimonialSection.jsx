@@ -1,29 +1,32 @@
 import Slider from 'react-slick'
 import Button from './Button'
 import TestimonialItem from './TestimonialItem'
-import avat from '../assets/images/avatar-ali.png'
+import anishaAvatar from '../assets/images/avatar-anisha.png'
+import aliAvatar from '../assets/images/avatar-ali.png'
+import richardAvatar from '../assets/images/avatar-richard.png'
+import shanaiAvatar from '../assets/images/avatar-shanai.png'
 
 function TestimonialSection () {
   const testimonialsMobile = [
     {
       text: '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”',
       author: 'Anisha Li',
-      avatar: '../assets/images/avatar-anisha.png'
+      avatar: anishaAvatar
     },
     {
       text: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”',
       author: 'Ali Bravo',
-      avatar: '../assets/images/avatar-ali.png'
+      avatar: aliAvatar
     },
     {
       text: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”',
       author: 'Richard Watts',
-      avatar: '../assets/images/avatar-richard.png'
+      avatar: richardAvatar
     },
     {
       text: '“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”',
       author: 'Shanai Gough',
-      avatar: '../assets/images/avatar-shanai.png'
+      avatar: shanaiAvatar
     }
   ]
 
@@ -31,20 +34,20 @@ function TestimonialSection () {
     {
       text: '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”',
       author: 'Anisha Li',
-      avatar: '/src/assets/images/avatar-anisha.png'
+      avatar: anishaAvatar
     },
     {
       text: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”',
       author: 'Ali Bravo',
-      avatar: '/src/assets/images/avatar-ali.png'
+      avatar: aliAvatar
     },
     {
       text: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”',
       author: 'Richard Watts',
-      avatar: '/src/assets/images/avatar-richard.png'
+      avatar: richardAvatar
     }
   ]
-  console.log(testimonialsDesktop[0].avatar)
+
   const settings = {
     dots: true,
     dotsClass: 'slick-dots slick-active',
@@ -82,19 +85,62 @@ function TestimonialSection () {
       <div className='flex justify-center items-center'>
         <div className='w-full max-w-md lg:hidden'>
           <Slider {...settings}>
-            {testimonialsMobile.map((testimonial, index) => (
+            {/* {testimonialsMobile.map((testimonial, index) => (
               <div key={index}>
                 <TestimonialItem text={testimonial.text} author={testimonial.author} avatar={testimonial.avatar} />
               </div>
-            ))}
+            ))} */}
+            <div>
+              <div className='flex flex-col items-center w-full p-8 text-center space-y-6'>
+                <img src={anishaAvatar} alt='avatar' className='w-20' />
+                <p className='text-lg text-DarkBlue font-bold'>Anisha Li</p>
+                <p className='text-DarkGrayishBlue'>'“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”'</p>
+              </div>
+            </div>
+            <div>
+              <div className='flex flex-col items-center w-full p-8 text-center space-y-6'>
+                <img src={aliAvatar} alt='avatar' className='w-20' />
+                <p className='text-lg text-DarkBlue font-bold'>Ali Bravo</p>
+                <p className='text-DarkGrayishBlue'>'“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”'</p>
+              </div>
+            </div>
+            <div>
+              <div className='flex flex-col items-center w-full p-8 text-center space-y-6'>
+                <img src={richardAvatar} alt='avatar' className='w-20' />
+                <p className='text-lg text-DarkBlue font-bold'>Richard Watts</p>
+                <p className='text-DarkGrayishBlue'>'“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”'</p>
+              </div>
+            </div>
+            <div>
+              <div className='flex flex-col items-center w-full p-8 text-center space-y-6'>
+                <img src={shanaiAvatar} alt='avatar' className='w-20' />
+                <p className='text-lg text-DarkBlue font-bold'>Shanai Gough</p>
+                <p className='text-DarkGrayishBlue'>'“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”',</p>
+              </div>
+            </div>
           </Slider>
         </div>
         <div className='hidden w-screen lg:flex lg:justify-between lg:gap-5 xl:gap-10'>
-          {testimonialsDesktop.map((testimonial, index) => (
+          {/* {testimonialsDesktop.map((testimonial, index) => (
             <div key={index}>
-              <TestimonialItem text={testimonial.text} author={testimonial.author} avatar={avat} />
+              <TestimonialItem text={testimonial.text} author={testimonial.author} avatar={testimonial.avatar} />
             </div>
-          ))}
+          ))} */}
+          <div className='flex flex-col items-center w-full p-8 text-center space-y-6'>
+            <img src={anishaAvatar} alt='avatar' className='w-20' />
+            <p className='text-lg text-DarkBlue font-bold'>Anisha Li</p>
+            <p className='text-DarkGrayishBlue'>'“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”'</p>
+          </div>
+          <div className='flex flex-col items-center w-full p-8 text-center space-y-6'>
+            <img src={aliAvatar} alt='avatar' className='w-20' />
+            <p className='text-lg text-DarkBlue font-bold'>Ali Bravo</p>
+            <p className='text-DarkGrayishBlue'>'“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”'</p>
+          </div>
+          <div className='flex flex-col items-center w-full p-8 text-center space-y-6'>
+            <img src={richardAvatar} alt='avatar' className='w-20' />
+            <p className='text-lg text-DarkBlue font-bold'>Richard Watts</p>
+            <p className='text-DarkGrayishBlue'>'“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”'</p>
+          </div>
         </div>
       </div>
       <div className='flex justify-center pt-10'>
