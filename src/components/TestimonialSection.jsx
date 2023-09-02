@@ -1,5 +1,4 @@
 import Slider from 'react-slick'
-// import avatar from '../assets/images/avatar-ali.png'
 import Button from './Button'
 import TestimonialItem from './TestimonialItem'
 
@@ -8,22 +7,22 @@ function TestimonialSection () {
     {
       text: '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”',
       author: 'Anisha Li',
-      avatar: '/src/assets/images/avatar-anisha.png'
+      avatar: '../assets/images/avatar-anisha.png'
     },
     {
       text: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”',
       author: 'Ali Bravo',
-      avatar: '/src/assets/images/avatar-ali.png'
+      avatar: '../assets/images/avatar-ali.png'
     },
     {
       text: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”',
       author: 'Richard Watts',
-      avatar: '/src/assets/images/avatar-richard.png'
+      avatar: '../assets/images/avatar-richard.png'
     },
     {
       text: '“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”',
       author: 'Shanai Gough',
-      avatar: '/src/assets/images/avatar-shanai.png'
+      avatar: '../assets/images/avatar-shanai.png'
     }
   ]
 
