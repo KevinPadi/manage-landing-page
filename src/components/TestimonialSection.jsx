@@ -1,6 +1,7 @@
 import Slider from 'react-slick'
 import Button from './Button'
 import TestimonialItem from './TestimonialItem'
+import avat from '../assets/images/avatar-ali.png'
 
 function TestimonialSection () {
   const testimonialsMobile = [
@@ -91,7 +92,7 @@ function TestimonialSection () {
         <div className='hidden w-screen lg:flex lg:justify-between lg:gap-5 xl:gap-10'>
           {testimonialsDesktop.map((testimonial, index) => (
             <div key={index}>
-              <TestimonialItem text={testimonial.text} author={testimonial.author} avatar={testimonial.avatar} />
+              <TestimonialItem text={testimonial.text} author={testimonial.author} avatar={avat} />
             </div>
           ))}
         </div>
