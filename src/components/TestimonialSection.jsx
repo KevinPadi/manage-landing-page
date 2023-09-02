@@ -1,53 +1,11 @@
 import Slider from 'react-slick'
 import Button from './Button'
-import TestimonialItem from './TestimonialItem'
 import anishaAvatar from '../assets/images/avatar-anisha.png'
 import aliAvatar from '../assets/images/avatar-ali.png'
 import richardAvatar from '../assets/images/avatar-richard.png'
 import shanaiAvatar from '../assets/images/avatar-shanai.png'
 
 function TestimonialSection () {
-  const testimonialsMobile = [
-    {
-      text: '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”',
-      author: 'Anisha Li',
-      avatar: anishaAvatar
-    },
-    {
-      text: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”',
-      author: 'Ali Bravo',
-      avatar: aliAvatar
-    },
-    {
-      text: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”',
-      author: 'Richard Watts',
-      avatar: richardAvatar
-    },
-    {
-      text: '“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”',
-      author: 'Shanai Gough',
-      avatar: shanaiAvatar
-    }
-  ]
-
-  const testimonialsDesktop = [
-    {
-      text: '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”',
-      author: 'Anisha Li',
-      avatar: anishaAvatar
-    },
-    {
-      text: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”',
-      author: 'Ali Bravo',
-      avatar: aliAvatar
-    },
-    {
-      text: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”',
-      author: 'Richard Watts',
-      avatar: richardAvatar
-    }
-  ]
-
   const settings = {
     dots: true,
     dotsClass: 'slick-dots slick-active',
